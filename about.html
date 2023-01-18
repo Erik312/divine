@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Divine Energy & Light</title>
+    <link rel="icon" href="static/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/about.css">
+  </head>
+  <body>
+    <header>
+    <img id="img-logo" src="static/images/small-logo-only.svg">
+
+      <p onclick="display_nav()" id="nav-logo"><ion-icon name="cube-outline"></ion-icon></p>
+      <nav id="main-nav">
+        <p id="close-nav-logo" onclick="display_nav()"><ion-icon name="cube-outline"></ion-icon></p>
+        <ul id="nav-list">
+          <li><a class="nav-item" href="index.html" onclick="display_nav()">Home</a></li>
+          <li><a class="nav-item"  href="https://www.etsy.com/shop/DivineEnergyandLight?ref=profile_header" onclick="display_nav()">Shop</a></li>
+          <li><a class="nav-item" href="about.html" onclick="display_nav()">About</a></li>
+        </ul>
+
+      </nav>
+
+    </header>
+
+
+
+    <div class="content-container">
+
+        <h1 class="section-title">About</h1>
+
+
+
+        <p id="about-text">Hello Divine Beings of Light,<br><br>
+     My name is Erica and I'am a channel and a worker of the light. I’ve incarnated here to help people
+     reclaim their soul spirit. A remembrance of their true authentic selves away from the paradigm of
+     separation and In authentic belief structures of this third dimensional world. I base my work purely
+     in unconditional love and offer healing light and emotional guidance. Im certified in Reiki and
+     Metatronia healing modalities but I also allow spirit to guide me through the expansion of the energy
+     work I'm providing. My energy healing sessions can include a variety of different techniques and tools
+     in which we transmute energy that needs to be dissolved and bring forth new high vibrational energy.
+     I also feel that it is important to teach people about the importance of the energy system within our
+     body and the energy that makes up our world and the maintenance that is required as part of ones total
+     well being.</p>
+
+
+     <img id="bio-pic"src="static/images/IMG_1569.jpg" alt="bio-picture">
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <a class="footer-link"href="terms.html"><p>Terms</p></a>
+        <a class="footer-link" href="privacy.html"><p>Privacy</p></a>
+        <t id="f-support">© 2022</t>
+
+    </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script type="text/javascript">
+
+    function display_nav(){
+      let n = document.getElementById('main-nav');
+      if (n.style.visibility === "visible"){
+        n.style.visibility = "hidden";
+        n.style.opacity = 0;
+      }else{
+        n.style.opacity = 1;
+        n.style.visibility = "visible";
+      }
+    }
+
+  </script>
+
+
+
+  </body>
+</html>

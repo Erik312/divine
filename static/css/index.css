@@ -1,0 +1,626 @@
+
+
+*{
+  padding: 0;
+  margin:0;
+
+}
+
+
+
+html,body{
+  background-color: white;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+header{
+  background-color:pink;
+  width: 100%;
+  height: 80px;
+  position:sticky;
+  top:0;
+  z-index:2;
+
+}
+
+header p {
+  display: inline-block;
+  margin-top:20px;
+
+}
+
+
+
+#img-logo{
+
+  height: 80px;
+  width: 150px;
+}
+
+
+
+
+
+#nav-logo{
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+  font-size: 37px;
+  color: white;
+  transition: transform .1s ease-in-out;
+}
+
+#nav-logo:hover{
+  transform:scale(1.3);
+}
+
+
+
+#main-nav{
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: pink;
+  position:fixed;
+  margin: 0 0;
+  padding:0 0;
+  bottom:0;
+  top:0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  transition: all ease-in 0.3s;
+
+
+}
+
+
+
+
+#close-nav-logo{
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 70px;
+  transition: transform .1s ease-in-out;
+  color: white;
+
+}
+
+#close-nav-logo:hover{
+  transform:scale(1.3);
+}
+
+#nav-list{
+  margin-top: 17vh;
+  font-size: 40px;
+  font-weight: bold;
+  list-style-type: none;
+
+}
+
+
+
+.nav-item{
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 15px;
+
+}
+
+.nav-item:hover{
+  color: #E0E0E0;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(255,192,203,0.5), rgba(0,0,0,0.7)), url(../images/IMG_0587.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+
+
+#hero-text{
+  padding-top: 150px;
+  padding-left: 50px;
+  font-size: 80px;
+  color: white;
+
+}
+
+#hero-button{
+  margin-left: 50px;
+  margin-top:30px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: pink;
+  font-size: 20px;
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+#hero-button:hover{
+  background-color: white;
+  color: pink;
+  border: 1px solid pink;
+  transform: scale(1.1);
+}
+
+.content-container{
+
+  height: flex;
+  width: 100vw;
+  text-align: center;
+
+
+}
+
+#intro-wrapper{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 70vh;
+}
+
+#intro-text{
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 40px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.375em;
+}
+
+#intro-image{
+  width: auto;
+  height: 70%;
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 0;
+  border: 5px solid pink;
+  border-radius: 7px;
+}
+
+
+#intro-image:hover{
+  box-shadow: 0 0 2px 3px rgba(0, 140, 186, 0.5);
+}
+
+
+#custom-card-container{
+  background-color:#f5f5f5;
+}
+
+.section-title{
+  padding-left: 20px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+#card-container{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin:0 auto;
+  background-color: #f5f5f5;
+
+
+
+
+}
+
+
+.card{
+  border:3px solid pink;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  padding: 10px 10px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 130px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  background-color: white;
+  transition: transform .5s ease-in-out;
+
+
+
+}
+
+
+.card-title{
+  margin-bottom: 15px;
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: 400;
+  line-height: 1.375em;
+}
+
+.card-text{
+  font-weight: 400;
+  line-height: 1.375em;
+}
+
+.card-logo{
+  display: block;
+  margin: 20px auto;
+  height: 100px;
+  width: auto;
+}
+
+.card-button{
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 9px 9px;
+  border: 1px solid black;
+  border-radius:40px;
+  background-color: pink;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+.card-button:hover{
+  color:pink;
+  background-color: white;
+  transform:scale(1.1);
+  border:1px solid pink;
+}
+
+#reiki-button{
+  margin-top:85px;
+}
+
+
+.card-button:hover{
+  transform: scale(1.1);
+}
+
+#expect-wrapper{
+  display: flex;
+  width: 100%;
+  margin-bottom: 150px;
+
+}
+
+
+#expect-text{
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 20px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.375em;
+  font-family: 400;
+}
+
+#expect-image{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  border: 5px solid pink;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+#expect-image:hover{
+  box-shadow: 0 0 2px 3px rgba(0, 140, 186, 0.5);
+}
+
+#contact-c{
+  background-color: #f5f5f5;
+  padding-bottom: 150px;
+}
+
+#contact-quest{
+  margin: 20px auto;
+  font-weight: 200;
+}
+
+#contact-email{
+  margin:40px auto;
+  font-weight: 200;
+
+}
+#contact-loc{
+  margin:40px auto;
+  font-weight: 200;
+}
+
+#contact-number{
+  margin:40px auto;
+  font-weight: 200;
+}
+
+#contact-caledly{
+  margin:40px auto;
+  font-weight: 200;
+}
+
+
+.main-form{
+  display: inline-block;
+  border: 5px solid pink;
+  border-radius: 10px;
+  width: 60%;
+  height: flex;
+  margin-top:30px;
+  margin-bottom:100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+
+
+}
+
+
+.f-item{
+  display: block;
+  margin:7px auto;
+  border:2px solid lightgray;
+  border-radius:5px;
+  font-size: 17px;
+  padding: 10px 10px;
+}
+
+
+
+
+#f-button{
+  border: 1px solid black;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px;
+  border-radius: 7px;
+  background-color: white;
+  width: 25%;
+  margin: 10px auto;
+  color: white;
+  background-color: pink;
+  cursor: pointer;
+  transition: transform .5s ease-in-out;
+
+
+}
+
+#f-button:hover{
+  transform: scale(1.1);
+  color: pink;
+  background-color: white;
+  border:1px solid pink;
+}
+
+
+
+
+footer{
+  background-color: pink;
+  width: 100%;
+  height: 90px;
+
+  text-align: center;
+}
+
+footer a {
+  float:left;
+  margin-top: 35px;
+  margin-left: 40px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+
+
+}
+
+#f-support{
+  float: right;
+  margin-right: 80px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin-top: 35px;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px){
+
+    #img-logo{
+      position:absolute;
+      left: -40px;
+    }
+
+    #nav-logo{
+      margin-right: 17px;
+      margin-top: 25px;
+
+    }
+
+    #hero-text{
+      padding-top: 20px;
+      padding-left: 10px;
+    }
+
+    #hero-button{
+      margin-left:25px;
+      height: 70px;
+
+    }
+
+    #intro-wrapper{
+      display: inline;
+      margin: 0 auto;
+    }
+    #intro-text{
+      display: block;
+      margin: 0 auto;
+      width: 75vw;
+      padding-top: 50px;
+      padding-left: 0;
+
+    }
+
+    #intro-image{
+      display: block;
+      margin: 20px auto;
+      height: auto;
+      width:75vw;
+    }
+
+
+
+    #card-container{
+      display: block;
+      padding-bottom:100px;
+
+    }
+
+    .card{
+      margin: 20px auto;
+      width:75vw;
+      height: auto;
+
+    }
+
+    .card-text{
+      font-size: 20px;
+    }
+
+    .card-button{
+      height: 50px;
+    }
+
+    #expect-wrapper{
+      display: inline-block;
+      margin-bottom: 70px;
+    }
+    #expect-text{
+      display: block;
+      margin: 0 auto;
+      width: 80vw;
+      padding: 0;
+
+    }
+
+    #expect-image{
+      margin: 20px auto;
+      width: 80vw;
+      height: auto;
+    }
+
+    .main-form{
+      width: 80vw;
+      height: auto;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+
+    .f-item{
+      width: 80%;
+    }
+
+    #f-button{
+      width: 50%;
+    }
+
+    footer a{
+      margin-left: 10px;
+    }
+
+    #f-support{
+      margin-right: 20px;
+
+    }
+
+}
+
+  @media only screen and (max-width: 767px){
+
+
+
+
+
+  }
+
+
+  @media only screen (min-width:641px)and (max-width: 1024px){
+
+
+
+
+
+  }
+
+
+
+
+  @media only screen and (min-width:600px) and (max-width: 800px){
+
+    #intro-wrapper{
+      margin-bottom: 90px;
+    }
+
+    #intro-text{
+      padding-top: 45px;
+      font-size: 17px;
+    }
+
+    #intro-image{
+      width: 30%;
+      margin-left: 40px;
+    }
+
+
+    .card{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    #expect-text{
+      font-size: 17px;
+      padding-left: 20px;
+      padding-top: 50px;
+      width: 40%;
+    }
+
+    #expect-image{
+      margin-left: 40px;
+      width: 45%;
+      height: auto;
+
+
+    }
+}
