@@ -129,11 +129,11 @@ a{
 .hero{
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(255,192,203,0.5), rgba(0,0,0,0.7)), url(../images/IMG_0587.jpg);
+  background-image: linear-gradient(rgba(255,192,203,0.5), rgba(0,0,0,0.7)), url(../images/IMG_0587.jpg)fixed;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-  z-index:9999;
+
 
 }
 
