@@ -133,6 +133,7 @@ a{
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+  z-index:9999;
 
 }
 
