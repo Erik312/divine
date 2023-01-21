@@ -131,7 +131,7 @@ a{
   background-image: linear-gradient(rgba(255,192,203,0.5), rgba(0,0,0,0.7)), url(../images/IMG_0587.jpg);
 	background-size: cover;
 	background-position: center;
-	
+	background-attachment: fixed;
 
 
 }
@@ -457,6 +457,9 @@ footer a {
 
 
 @media only screen and (max-width: 480px){
+    .hero{
+      background-attachment: initial;
+    }
 
     #img-logo{
       position:absolute;
@@ -588,6 +591,10 @@ footer a {
 
 
   @media only screen and (min-width:600px) and (max-width: 800px){
+
+    .hero{
+      background-attachment: initial;
+    }
 
     #intro-wrapper{
       margin-bottom: 90px;
