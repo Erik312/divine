@@ -149,12 +149,12 @@ a{
 #hero-button{
   margin-left: 50px;
   margin-top:30px;
-  width: 250px;
-  height: 50px;
-  border: 1px solid black;
+  width: 330px;
+  height: 70px;
+  border: 2px solid black;
   border-radius: 40px;
   background-color: pink;
-  font-size: 20px;
+  font-size: 23px;
   transition: 0.5s;
   color: white;
   cursor: pointer;
@@ -165,7 +165,7 @@ a{
 #hero-button:hover{
   background-color: white;
   color: pink;
-  border: 1px solid pink;
+  border: 2px solid pink;
   transform: scale(1.1);
 }
 
