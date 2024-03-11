@@ -156,8 +156,10 @@ a{
 footer{
   background-color: pink;
   width: 100%;
-  height: 90px;
+  height: 80px;
   text-align: center;
+  position: absolute;
+  bottom: 0px;
 
 }
 
