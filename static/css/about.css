@@ -132,6 +132,15 @@ a{
   background-attachment: fixed;
 }
 
+.hero-text{
+  font-size: 45px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  animation: 1.5s fadeInObj;
+}
 
 
 
@@ -148,11 +157,6 @@ a{
 }
 
 
-.section-title{
-  margin-top: 50px;
-  margin-bottom: 17px;
-}
-
 
 #about-text{
   width: 50%;
@@ -163,6 +167,7 @@ a{
   font-weight: 400;
   line-height: 1.375em;
   text-align: left;
+  animation: 1.5s fadeInObj;
 }
 
 #bio-pic{
@@ -172,8 +177,7 @@ a{
   margin: 100px auto;
   border: 5px solid pink;
   border-radius: 7px;
-
-
+  animation: 1.5s fadeInObj;
 
 }
 
@@ -209,6 +213,17 @@ footer a {
   font-weight: bold;
   color: white;
   margin-top: 35px;
+}
+
+@keyframes fadeInObj{
+  0%{
+  transform: translateY(100%);
+  opacity:0;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity:1;
+  }
 }
 
 
