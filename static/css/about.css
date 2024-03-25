@@ -138,7 +138,7 @@ a{
   display: block;
   text-align: center;
   color: white;
-  padding-top: 100px;
+  padding-top: 150px;
   animation: 1.5s fadeInObj;
 }
 
@@ -238,6 +238,10 @@ footer a {
       margin-right: 17px;
       margin-top: 25px;
 
+    }
+
+    .hero-text{
+      padding-top: 100px;
     }
 
     #about-text{
