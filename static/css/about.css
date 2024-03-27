@@ -229,6 +229,10 @@ footer a {
 
 @media only screen and (max-width: 480px){
 
+    .hero{
+      background-attachment: initial;
+    }
+
     #img-logo{
       position:absolute;
       left: -40px;
@@ -292,6 +296,10 @@ footer a {
 
 
   @media only screen and (min-width:600px) and (max-width: 800px){
+
+    .hero{
+      background-attachment: initial;
+    }
 
 
 
