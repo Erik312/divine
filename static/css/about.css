@@ -133,7 +133,7 @@ a{
 }
 
 .hero-text{
-  font-size: 45px;
+  font-size: 55px;
   margin: 0 auto;
   display: block;
   text-align: center;
@@ -246,6 +246,7 @@ footer a {
 
     .hero-text{
       padding-top: 100px;
+      font-size: 55px;
     }
 
     #about-text{
