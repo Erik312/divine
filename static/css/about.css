@@ -249,6 +249,10 @@ footer a {
       font-size: 55px;
     }
 
+    .content-container{
+      margin-bottom: 100px;
+    }
+
     #about-text{
       padding-top: 50px;
       width: 90vw;
