@@ -532,9 +532,10 @@ footer a {
 
     #intro-image{
       display: block;
-      margin: 20px auto;
+      margin: 40px auto;
       height: auto;
       width:75vw;
+      margin-bottom: 100px;
     }
 
 
