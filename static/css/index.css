@@ -604,6 +604,12 @@ footer a {
 
     }
 
+    #loc-map{
+      width:90vw;
+      height:450px;
+      margin: 0 auto;
+    }
+
 }
 
   @media only screen and (max-width: 767px){
