@@ -157,7 +157,7 @@ a{
 footer{
   background-color: pink;
   width: 100%;
-  height: 80px;
+  height: 90px;
   text-align: center;
   position: absolute;
   bottom: 0px;
@@ -199,6 +199,9 @@ footer a {
 
     }
 
+    footer{
+      position: relative;
+    }
 
     footer a{
       margin-left: 10px;

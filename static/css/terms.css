@@ -173,7 +173,7 @@ a{
 footer{
   background-color: pink;
   width: 100%;
-  height: 80px;
+  height: 90px;
   text-align: center;
   position: absolute;
   bottom: 0px;
@@ -214,16 +214,28 @@ footer a {
 
     }
 
+    .cert-wrapper{
+      margin: 0px 0px;
+    }
+
+   .cert{
+      display: block;
+      margin: 0px auto;
+   }
     
+  footer{
+    position: relative;
 
-    footer a{
+  }
+
+  footer a{
       margin-left: 10px;
-    }
+  }
 
-    #f-support{
-      margin-right: 20px;
+  #f-support{
+     margin-right: 20px;
 
-    }
+  }
 
 }
 
